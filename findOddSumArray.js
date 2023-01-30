@@ -1,7 +1,7 @@
 // find sum of odd number in an array
 
 function oddSum(number) {
-  var sum = 0
+  let sum = 0
   for (let i = 0; i < number.length; i++) {
     if (number[i] % 2 != 0) {
       sum += number[i]
