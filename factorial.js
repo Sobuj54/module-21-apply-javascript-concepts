@@ -8,6 +8,6 @@ function factiorial(number) {
   return fact
 }
 
-const number = 5
+const number = 0
 const fact = factiorial(number)
 console.log(number, '! =', fact)
